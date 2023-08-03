@@ -34,9 +34,8 @@ Windows
 `Download at https://download.racket-lang.org/`
 
 <h1> Chapter 1 </h1> 
-\
-\
-\
+
+
 **Exercise 1.1:**
 Below is a sequence of expressions. What is the result printed by the interpreter in response to each expression? Assume that the sequence is to be evaluated in the order in which it is presented.
 
