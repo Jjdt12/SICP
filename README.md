@@ -1,5 +1,6 @@
 # SICP
-Chapter exercises, .scm files available in chapter directories. 
+Structures and Interpretation of Computer Programs chapter exercises
+.scm files available in chapter directories for relevent questions
 
 
 <h1> Chapter 1 </h1> 
