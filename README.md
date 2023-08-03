@@ -3,6 +3,18 @@ Structures and Interpretation of Computer Programs chapter exercises
 
 .scm files available in chapter directories for relevent questions
 
+For x86, us `mit-scheme` installed with:
+
+Linux
+`apt install mit-scheme` 
+OSX
+`brew install mit-scheme`
+
+For ARM or Windows, use Racket, installed with:
+OSX
+`brew install racket`
+Windows
+`Download at https://download.racket-lang.org/`
 
 <h1> Chapter 1 </h1> 
 
