@@ -36,6 +36,7 @@ Windows
 <h1> Chapter 1 </h1> 
 
 
+
 **Exercise 1.1:**
 Below is a sequence of expressions. What is the result printed by the interpreter in response to each expression? Assume that the sequence is to be evaluated in the order in which it is presented.
 
@@ -80,6 +81,8 @@ BLANK
 16
 ```
 
+
+
 **Exercise 1.2:** Translate the following expression into prefix form:
 
 ![](/images/1_2_exp.png)
@@ -109,6 +112,9 @@ BLANK
 
 (big_check 2 1 3)
 ```
+
+
+
 **Exercise 1.4:** Observe that our model of evaluation allows for combinations whose operators are compound expressions. Use this observation to describe the behavior of the following procedure:
 
 ```
@@ -122,6 +128,9 @@ BLANK
 If b is greater then zero, add a and b
 Else subtract b from a. 
 ```
+
+
+
 **Exercise 1.5:** Ben Bitdiddle has invented a test to determine whether the interpreter he is faced with is using applicative-order evaluation or normal-order evaluation. He defines the following two procedures:
 
 ```
