@@ -1,6 +1,16 @@
 # SICP
 Structures and Interpretation of Computer Programs chapter exercises
 
+Book available in
+
+HTML format here
+
+`https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/full-text/book/book.html`
+
+PDF format here
+
+`https://web.mit.edu/6.001/6.037/sicp.pdf`
+
 .scm files available in chapter directories for relevent questions
 
 For x86, use `mit-scheme` installed with:
