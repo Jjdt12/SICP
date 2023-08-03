@@ -120,4 +120,51 @@ BLANK
 If b is greater then zero, add a and b
 Else subtract b from a. 
 ```
+**Exercise 1.5:** Ben Bitdiddle has invented a test to determine whether the interpreter he is faced with is using applicative-order evaluation or normal-order evaluation. He defines the following two procedures:
 
+```
+(define (p) (p))
+(define (test x y)
+  (if (= x 0)
+      0
+      y))
+```
+
+Then he evaluates the expression
+
+```
+(test 0 (p))
+```
+
+What behavior will Ben observe with an interpreter that uses applicative-order evaluation? What behavior will he observe with an interpreter that uses normal-order evaluation? Explain your answer. (Assume that the evaluation rule for the special form if is the same whether the interpreter is using normal or applicative order: The predicate expression is evaluated first, and the result determines whether to evaluate the consequent or the alternative expression.)
+
+**ANSWER**
+
+```
+With applictive-order evaluation Ben will observe that the process 
+repeats infinietly because (p) infinitely expands itself during evalutation. 
+
+(test 0 (p))
+
+(if (= x 0) 0 (p))
+
+(p) is evaluated before applying resulting procedures so:
+
+(p) is (p) is (p) is (p)...etc.
+
+With normal-order evaluation Ben will observe that the interpreter does output 
+a result, 0. This is because in normal-order evaluation operands are not evaluated
+until their values are needed:
+
+ (test 0 (p)) 
+  
+ (p) is then subsituted before evaluation, and is not evaulated until/if it needed:
+
+ (if (= 0 0) 0 (p)) 
+  
+ (if TRUE 0 (p)) 
+
+ Since 0 = 0 evaluations to TRUE, then (p) is not evaluated. 
+  
+ Output: 0
+```
