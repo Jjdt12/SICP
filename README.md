@@ -171,7 +171,7 @@ until their values are needed:
 
  (test 0 (p)) 
   
- (p) is then subsituted before evaluation, and is not evaulated until/if it needed:
+ (p) is not evaulated until/if it needed:
 
  (if (= 0 0) 0 (p)) 
   
