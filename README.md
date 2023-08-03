@@ -1,5 +1,5 @@
 # SICP
-Chapter exercises
+Chapter exercises, .scm files available in chapter directories. 
 
 
 <h1> Chapter 1 </h1> 
