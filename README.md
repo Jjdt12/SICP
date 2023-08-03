@@ -86,7 +86,7 @@ BLANK
 **ANSWER**
 
 ```
-If b is greater then zero, set add a and b
+If b is greater then zero, set a and b
 Else subtract b from a. 
 ```
 
