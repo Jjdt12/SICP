@@ -13,7 +13,7 @@ OSX
 
 `brew install mit-scheme`
 
-For ARM or Windows, use Racket, installed with:
+For ARM or Windows, use `racket` installed with:
 
 OSX
 
