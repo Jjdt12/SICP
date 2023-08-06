@@ -186,6 +186,8 @@ until their values are needed:
 \
 \
 \
+**Exercise 1.6:** Alyssa P. Hacker doesn't see why if needs to be provided as a special form. "Why can't I just define it as an ordinary procedure in terms of cond?" she asks. Alyssa's friend Eva Lu Ator claims this can indeed be done, and she defines a new version of if:
+
 ```
 (define (new-if predicate then-clause else-clause)
 
@@ -221,5 +223,4 @@ What happens when Alyssa attempts to use this to compute square roots? Explain.
 'if' is a special form and does not evaluate the second predicate if the first 
 predicate is true. The newly defined 'newif' is not a special form and thus is 
 subject to applicitive-order evaluation; this causes an stack overflow when the 
-iteration procecedure (sqrt-iter) is evaluated/called. 
-```
+iteration procecedure (sqrt-iter) is evaluated/called.
