@@ -218,5 +218,8 @@ What happens when Alyssa attempts to use this to compute square roots? Explain.
 **ANSWER**
 
 ```
-'if' is a special form and does not evaluate the second predicate if the first predicate is true. The newly defined 'newif' is not a special form and thus is subject to applicitive-order evaluation; this causes an stack overflow when the interation procecedure (sqrt-iter) is evaluated/called. 
+'if' is a special form and does not evaluate the second predicate if the first 
+predicate is true. The newly defined 'newif' is not a special form and thus is 
+subject to applicitive-order evaluation; this causes an stack overflow when the 
+iteration procecedure (sqrt-iter) is evaluated/called. 
 ```
